@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">رهنما</string>
+    <string name="title">عنوان</string>
+    <string name="health_information">Health Information</string>
+    <string name="beauty">Beauty</string>
+    <string name="sports">Sports</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="eat_and_drink">خوردنی و آشامیدنی</string>
+    <string name="mod_poshak">مدو پوشاک</string>
+    <string name="make_up">آرایشی و بهداشتی</string>
+    <string name="sports_and_travel">ورزشی و سفر</string>
+    <string name="kids_tools">اسباب بازی</string>
+    <string name="home_and_kitchen">خانه و آشپزخانه</string>
+    <string name="nav_stores">فروشگاه ها</string>
+    <string name="nav_address">آدرس ها</string>
+    <string name="nav_jobs_scholarships">کاریابی و بورسیه</string>
+    <string name="nav_products">محصولات</string>
+    <string name="nav_services">خدمات</string>
+    <string name="general_places">مکان های عمومی</string>
+    <string name="health_places">مراکز صحی</string>
+    <string name="educational_centers">نهاد های تحصیلی</string>
+    <string name="restuarants_coffee">رستورانت و کافی شاپ</string>
+    <string name="government_office">ادارات دولتی</string>
+    <string name="companies">شرکت ها</string>
+    <string name="global_organizations">موسسات و سازمان های بین المللی</string>
+    <string name="media">رسانه ها</string>
+    <string name="factories">فابریکه و کار گاه ها</string>
+    <string name="mosques">مساجد</string>
+    <string name="different_places">متفرفه</string>
+    <string name="kids_toys">اسباب بازی</string>
+    <string name="eat_and_drinks">خوردنی و آشامیدنی</string>
+    <string name="electrical_tools">سامان آلات برقی</string>
+    <string name="rahnoma_slogan">رهنما</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/stores"
+    android:title="@string/nav_stores"
+          android:icon="@drawable/ic_local_grocery_store_white_24dp"
+    /><item android:id="@+id/products"
+            android:title="@string/nav_products"
+            android:icon="@drawable/ic_product_white_24dp"
+    />
+    <item android:id="@+id/address"
+    android:title="@string/nav_address"
+          android:icon="@drawable/ic_location_on_location_24dp"
+    />
+    <item android:id="@+id/jobs_and_scholarships"
+    android:title="@string/nav_jobs_scholarships"
+          android:icon="@drawable/ic_jobs_24dp"
+    />
+    <item android:id="@+id/informatics"
+    android:title="@string/nav_services"
+          android:icon="@drawable/ic_info_white_24dp"
+    />
+
+</menu>
