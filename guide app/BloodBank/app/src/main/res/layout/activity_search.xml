@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Blood Group"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/txt-label"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt-label"
+        android:gravity="center"
+        android:id="@+id/radioButtonBloodGroup"
+        android:layout_marginTop="20dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_blood_a"
+            android:background="@drawable/custom_radio_blood_a" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_blood_b"
+            android:background="@drawable/custom_radio_blood_b" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_blood_ab"
+            android:background="@drawable/custom_radio_blood_ab" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_blood_o"
+            android:background="@drawable/custom_radio_blood_o" />
+    </RadioGroup>
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/progressBarSearch"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/radioButtonBloodGroup"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButtonBloodGroup"
+        android:layout_marginTop="30dp"
+        android:id="@+id/search_recycleView"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView_icon_logo_home"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/logoicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_icon_logo_home"
+        android:text="Blood Bank"
+        android:textColor="@color/blood"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="1049dp"
+        android:layout_height="784dp"
+        android:drawingCacheQuality="high"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="-500dp"
+        app:srcCompat="@drawable/ic_brightness_1_black_24dp"
+ />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginBottom="30dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageViewDonator"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    app:srcCompat="@drawable/ic_blooddonation" />
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donator"
+                    android:layout_below="@+id/imageViewDonator"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <ImageView
+                    android:id="@+id/imageView_search_blood"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    app:srcCompat="@drawable/ic_heart"
+                    />
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search"
+                    android:textColor="@color/white"
+                    android:layout_below="@+id/imageView_search_blood"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="70dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/image_circle"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_circle_one"
+                    android:layout_width="67dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    app:srcCompat="@drawable/ic_circle" />
+                <TextView
+                    android:id="@+id/txt_adapter_blood_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:text="A"
+                    android:layout_centerInParent="true"
+                    android:textSize="25dp" />
+            </RelativeLayout>+
+
+            <TextView
+                android:id="@+id/txt_name_donator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@+id/image_circle"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txt_donator_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="10dp"
+                android:layout_toRightOf="@id/image_circle"
+                android:layout_below="@+id/txt_name_donator"
+                android:text="TextView" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
